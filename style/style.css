@@ -6,8 +6,18 @@
     font-weight: <weight>;
     font-style: normal;
   }
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+ .raleway-font {
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
   body{
     margin:auto 140px ;
+    background-color: rgb(247, 247, 247);
+    
   }
 
   /* shared style  */
@@ -85,6 +95,70 @@
     align-items: center;
   }
 
+  /* Standard Curriculum style */
+  .curriculum{
+    background-image: url("../assets/bg.png");
+    
+    
+  }
+  .title-text{
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+  }
+  .boxs{
+    width: 310px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    padding: 10px;
+  }
+  .box-description{
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+  .read-more{
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgb(100, 200, 255);
+  }
+  #read-more-middle{
+    color: rgb(135, 0, 255);
+  }
+#read-more-elementary{
+    
+    color: rgb(240, 170, 0);
+}
+#elementary-gradient{
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+#middle-gradient{
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.curriculum-boxs{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.arrow-btn{
+    background-color: rgb(254, 163, 1);
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    padding: 15px 22px;
+}
+.arrow-btns{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
   @media screen and (max-width: 576px) {
     .header{
         /* flex-direction: column; */
@@ -103,6 +177,16 @@
         width: 400px;
         margin-right: 10px;
         margin-left: 10px;
+      }
+      .curriculum-boxs{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .title-text{
+        /* font-size: 1rem; */
+        text-align: center;
+        margin: 5px;
       }
   }
 
