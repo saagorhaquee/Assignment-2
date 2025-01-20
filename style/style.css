@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  body{
+    margin:auto 140px ;
+  }
+
+  /* shared style  */
+  .btn-primary{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    background-color: rgb(254, 163, 1);
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    font-weight: 600;
+    width: 150px;
+
+
+  }
+
+  /* navbar */
+  .logo{
+    
+  }
+  .logo-text{
+    font-size: 20px;
+    
+  }
+ .logo-and-name{
+    display: flex;
+    align-items: center
+  }
+  .navbar .about-container .list-item{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+  }
+  .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  /* header style  */
+  .header-container{
+    width: 600px;
+    
+  }
+  .header-title{
+    font-size: 56px;
+    font-weight: 700;
+  }
+  .header-description{
+    font-size: 16px;
+    font-weight: 350;
+  }
+  #header-btn{
+    background-color: rgb(17, 17, 17);;
+  }
+  .header{
+    display: flex;
+    align-items: center;
+  }
+
+  @media screen and (max-width: 576px) {
+    .header{
+        /* flex-direction: column; */
+        flex-direction: column-reverse;
+    }
+    .navbar{
+      flex-direction: column;
+      }
+      .header-container{
+        width: 330px;
+      }
+      .header-title{
+        font-size: 30px;
+      }
+  }
+
+
+ 
