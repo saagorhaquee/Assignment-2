@@ -46,14 +46,32 @@
     align-items: center;
     justify-content: space-between;
   }
+  #home{
+    color: rgb(254, 163, 1);
+  }
+  #about{
+    color: rgb(1, 172, 253);
+  }
+  #facilites{
+    color: rgb(5, 212, 223);
+  }
+  #admission{
+    color: rgb(93, 88, 239);
+  }
   /* header style  */
   .header-container{
     width: 600px;
     
   }
   .header-title{
-    font-size: 56px;
+    font-size: 3.5rem;
     font-weight: 700;
+  }
+  #Empowering{
+    color: rgb(254, 163, 1);
+  }
+  #towards-vision{
+    color:rgb(1, 172, 253)
   }
   .header-description{
     font-size: 16px;
@@ -71,15 +89,20 @@
     .header{
         /* flex-direction: column; */
         flex-direction: column-reverse;
+        margin-right: 10px;
+        margin-left: 10px;
     }
     .navbar{
       flex-direction: column;
       }
       .header-container{
-        width: 330px;
+        width: 280px;
+        
       }
-      .header-title{
-        font-size: 30px;
+      .header img{
+        width: 400px;
+        margin-right: 10px;
+        margin-left: 10px;
       }
   }
 
