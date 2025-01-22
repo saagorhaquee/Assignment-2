@@ -131,6 +131,8 @@
   .box-description{
     font-size: 0.8rem;
     font-weight: 400;
+    padding: 10px;
+    
   }
   .read-more{
     font-size: 1rem;
@@ -383,6 +385,14 @@ width: 25px;
         align-items: center;
         width: 300px;
       }
+      .story-box{
+        text-align: center;
+      }
+      .box-title{
+        /* background-color: brown; */
+        width: 400px;
+        
+      }
       .title-text{
         font-size: 1.5rem;
         text-align: center;
@@ -462,6 +472,10 @@ width: 25px;
         }
         .social-media{
           margin-bottom: 40px;
+        }
+        .marquee{
+          /* display: none; */
+          margin-top: 10px;
         }
 
       
