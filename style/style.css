@@ -346,9 +346,11 @@ width: 25px;
         display: flex;
         align-items: center;
         justify-content: space-around;
-        margin-left: 10px;
-        border: 0.5px solid rgb(254, 163, 1);
+        margin: 0 auto;
+        border-bottom: 0.5px solid rgb(254, 163, 1);
         width: 400px;
+        padding-bottom: 5px;
+        padding-top: 5px;
     
                
 
@@ -414,7 +416,7 @@ width: 25px;
       }
         
         .story-box {
-          width: 150px; 
+          width: 170px; 
           height: 13rem;          
           overflow: hidden; 
         }
@@ -430,12 +432,12 @@ width: 25px;
         }
       
         .story-title, .box-title {
-          font-size: 0.6rem; 
+          font-size: 0.7rem; 
           overflow: hidden; 
           padding: 5px; 
           padding-right: 10px;
           height: 50px; 
-          width: 110px;
+          width: 130px;
                 
         }
         /* footer section  */
