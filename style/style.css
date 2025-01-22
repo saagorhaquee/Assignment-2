@@ -367,13 +367,15 @@ width: 25px;
         margin-left: 10px;
       }
       .header-title{
-        font-size: 1.7rem;
+        font-size: 1.5rem;
+        width: 300px;
         
       }
       .curriculum-boxs{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 300px;
       }
       .title-text{
         font-size: 1.5rem;
@@ -407,7 +409,9 @@ width: 25px;
           gap: 5px; 
           padding:8px; 
         }
-      
+      .story-main-title{
+        font-size: 1rem;
+      }
         
         .story-box {
           width: 150px; 
@@ -416,18 +420,23 @@ width: 25px;
         }
       
         .content-box {
-          padding: 6px;          
+          padding: 4px;          
         }
       
         .btn {
-          width: 8rem;
+          width: 6rem;
           padding: 5px 8px; 
-          font-size: 0.7rem;
+          font-size: 0.6rem;
         }
       
         .story-title, .box-title {
-          font-size: 0.7rem; 
-          overflow: hidden;         
+          font-size: 0.6rem; 
+          overflow: hidden; 
+          padding: 5px; 
+          padding-right: 10px;
+          height: 50px; 
+          width: 110px;
+                
         }
         /* footer section  */
         .footer-container{
