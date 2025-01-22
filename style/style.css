@@ -13,9 +13,15 @@
     font-weight: <weight>;
     font-style: normal;
   }
+ *{
+  margin: 0;
+ }
 
-  body{
+  .main-margin{
     margin:auto 140px ;
+  }
+  body{
+    /* margin:auto 140px ; */
     background-color: rgb(247, 247, 247);
     
   }
@@ -86,6 +92,7 @@
   .header-title{
     font-size: 3.5rem;
     font-weight: 700;
+    margin-bottom: 20px;
   }
   #Empowering{
     color: rgb(254, 163, 1);
@@ -98,7 +105,8 @@
     font-weight: 350;
   }
   #header-btn{
-    background-color: rgb(17, 17, 17);;
+    background-color: rgb(17, 17, 17);
+    margin-top: 20px;
   }
   .header{
     display: flex;
@@ -271,6 +279,7 @@ text-align: left;
   
   
   background: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -286,9 +295,12 @@ text-align: left;
 }
 
 /* footer section  */
-footer{
+.footer{
+ 
 
   background: rgb(93, 88, 240);
+  
+  
 }
 .footer-logo-container{
   display: flex;
@@ -307,6 +319,7 @@ footer{
 }
 .footer-1{
   margin-top: 100px ;
+  
 }
 .footer-description{
   width: 300px;
@@ -314,6 +327,7 @@ footer{
   font-weight: 400;
   color: rgb(255, 255, 255);
   padding-left: 5px;
+  margin-top: 20px;
 }
 .footer-about-title{
   color: rgb(255, 255, 255);
@@ -323,10 +337,14 @@ footer{
 .about-items{
   color: rgb(255, 255, 255);
   font-size: 1rem;
-  font-weight:5400;
+  font-weight:400;
+  margin-bottom: 10px;
+  
+  
 }
 .social-icon{
 width: 25px;
+margin-top: 20px;
 }
 .footer-container{
   display: flex;
@@ -338,10 +356,13 @@ width: 25px;
 
   @media screen and (max-width: 576px) {
     body{
-      margin:0 auto ;
+      /* margin:0 auto ; */
+      /* margin:auto 140px ; */
       background-color: rgb(247, 247, 247);
       
     }
+    
+    
     .header{
       
         /* flex-direction: column; */
@@ -360,7 +381,7 @@ width: 25px;
         align-items: center;
         justify-content: space-around;
         margin: 0 auto;
-        border-bottom: 0.5px solid rgb(254, 163, 1);
+        border: 0.5px solid rgb(254, 163, 1);
         width: 400px;
         padding-bottom: 5px;
         padding-top: 5px;
@@ -374,6 +395,7 @@ width: 25px;
       .header-container{
         width: 280px;
         text-align: center;
+        /* margin: auto 5px; */
         
       }
       .header img{
@@ -391,6 +413,8 @@ width: 25px;
         justify-content: center;
         align-items: center;
         width: 300px;
+        
+       
       }
       .story-box{
         text-align: center;
@@ -406,19 +430,22 @@ width: 25px;
         margin: 5px;
         width: 300px;
         text-align: center;
+        
+        
       }
      .curriculum{
+      
+          margin: auto 5px;
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-top: 50px;
         margin-bottom: 40px;
-        gap: 10px;
-        width: 100%;
-        
-        
+        gap: 5px;
+        width: auto;
         
      }
+     
      .arrow-btn{
         display: none;
      }
@@ -431,16 +458,16 @@ width: 25px;
         .boxs-story {
           display: grid;
           grid-template-columns: repeat(2, 1fr); 
-          gap: 5px; 
+          gap: 8px; 
           padding:8px; 
         }
       .story-main-title{
-        font-size: 1rem;
+        font-size: 2rem;
       }
         
         .story-box {
-          width: 170px; 
-          height: 13rem;          
+          width: 190px; 
+          height: 15rem;          
           overflow: hidden; 
         }
       
@@ -455,12 +482,12 @@ width: 25px;
         }
       
         .story-title, .box-title {
-          font-size: 0.7rem; 
+          font-size: 0.9rem; 
           overflow: hidden; 
           padding: 5px; 
           padding-right: 10px;
           height: 50px; 
-          width: 130px;
+          width: 150px;
                 
         }
         /* footer section  */
