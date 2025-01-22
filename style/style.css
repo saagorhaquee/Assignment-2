@@ -39,6 +39,11 @@
   .logo{
     
   }
+  .menu-bar{
+    width: 30px;
+    height: 30px;
+    display: none;
+  }
   .logo-text{
     font-size: 20px;
     
@@ -285,6 +290,23 @@ text-align: left;
     }
     .navbar{
       flex-direction: column;
+      }
+      .menu-bar{
+        display: block;
+      }
+      .logo{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: 10px;
+        border: 0.5px solid rgb(254, 163, 1);
+        width: 400px;
+    
+               
+
+      }
+      .logo-text, .about-container, .contant-btn{
+        display: none;
       }
       .header-container{
         width: 280px;
