@@ -110,7 +110,7 @@
     margin-bottom: 80px;
   }
   .boxs{
-    width: 310px;
+    /* width: 310px; */
     text-align: center;
     box-sizing: border-box;
     border: 0.94px solid rgb(222, 245, 255);
@@ -251,6 +251,7 @@ text-align: left;
   
 }
 .story-section{
+  
   background: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
   display: flex;
   flex-direction: column;
@@ -291,7 +292,7 @@ text-align: left;
         
       }
       .header img{
-        width: 350px;
+        width: 300px;
         margin-right: 10px;
         margin-left: 10px;
       }
@@ -318,6 +319,8 @@ text-align: left;
         margin-top: 50px;
         margin-bottom: 40px;
         gap: 10px;
+        width: 100%;
+        
      }
      .arrow-btn{
         display: none;
@@ -337,7 +340,7 @@ text-align: left;
       
         
         .story-box {
-          width: 100%; 
+          width: 150px; 
           height: 13rem;          
           overflow: hidden; 
         }
@@ -353,7 +356,8 @@ text-align: left;
         }
       
         .story-title, .box-title {
-          font-size: 0.9rem;           
+          font-size: 0.7rem; 
+          overflow: hidden;         
         }
       
       }
