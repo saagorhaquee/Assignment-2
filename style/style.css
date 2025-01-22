@@ -263,7 +263,12 @@ text-align: left;
     
   
 }
+.story-container{
+  margin: 0 140px;
+
+}
 .story-section{
+  
   
   background: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
   display: flex;
